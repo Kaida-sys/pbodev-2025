@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Filament\Admin\Resources;
+namespace App\Filament\Resources;
 
-use App\Filament\Admin\Resources\ProductResource\Pages;
-use App\Filament\Admin\Resources\ProductResource\Pages\EditProduct;
-use App\Filament\Admin\Resources\ProductResource\RelationManagers;
+use App\Filament\Resources\ProductResource\Pages;
+use App\Filament\Resources\ProductResource\Pages\EditProduct;
+use App\Filament\Resources\ProductResource\RelationManagers;
 use App\Models\Client;
 use App\Models\Product;
 use Filament\Forms;
